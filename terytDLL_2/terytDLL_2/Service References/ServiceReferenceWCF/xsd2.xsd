@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="https://uslugaterytws1test.stat.gov.pl/wsdl/xsd3.xsd" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="ArrayOfJednostkaTerytorialna">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="JednostkaTerytorialna" nillable="true" type="tns:JednostkaTerytorialna" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfJednostkaTerytorialna" nillable="true" type="tns:ArrayOfJednostkaTerytorialna" />
+  <xs:complexType name="JednostkaTerytorialna">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="GMI" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NAZWA" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NAZWA_DOD" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="POW" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RODZ" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="STAN_NA" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WOJ" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="JednostkaTerytorialna" nillable="true" type="tns:JednostkaTerytorialna" />
+  <xs:complexType name="ArrayOfJednostkaNomenklaturyNTS">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="JednostkaNomenklaturyNTS" nillable="true" type="tns:JednostkaNomenklaturyNTS" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfJednostkaNomenklaturyNTS" nillable="true" type="tns:ArrayOfJednostkaNomenklaturyNTS" />
+  <xs:complexType name="JednostkaNomenklaturyNTS">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="GMI" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NAZWA" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NAZWA_DOD" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PODREG" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="POW" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="POZIOM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="REGION" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RODZ" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="STAN_NA" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WOJ" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="JednostkaNomenklaturyNTS" nillable="true" type="tns:JednostkaNomenklaturyNTS" />
+  <xs:complexType name="ArrayOfUlicaDrzewo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="UlicaDrzewo" nillable="true" type="tns:UlicaDrzewo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfUlicaDrzewo" nillable="true" type="tns:ArrayOfUlicaDrzewo" />
+  <xs:complexType name="UlicaDrzewo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Cecha" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Gmi" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IdentyfikatorMiejscowosci" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IdentyfikatorMiejscowosciPodstawowej" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IndeksKlucza" type="xs:int" />
+      <xs:element minOccurs="0" name="Nazwa1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nazwa2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NazwaCechy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Pow" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RodzGmi" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StanNa" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SymbolUlicy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Woj" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UlicaDrzewo" nillable="true" type="tns:UlicaDrzewo" />
+  <xs:complexType name="ArrayOfMiejscowosc">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Miejscowosc" nillable="true" type="tns:Miejscowosc" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMiejscowosc" nillable="true" type="tns:ArrayOfMiejscowosc" />
+  <xs:complexType name="Miejscowosc">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="GmiRodzaj" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GmiSymbol" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Gmina" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nazwa" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PowSymbol" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Powiat" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Symbol" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WojSymbol" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Wojewodztwo" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Miejscowosc" nillable="true" type="tns:Miejscowosc" />
+  <xs:complexType name="ArrayOfMiejscowoscPelna">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MiejscowoscPelna" nillable="true" type="tns:MiejscowoscPelna" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMiejscowoscPelna" nillable="true" type="tns:ArrayOfMiejscowoscPelna" />
+  <xs:complexType name="MiejscowoscPelna">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="GmiRodzaj" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GmiSymbol" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Gmina" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Mz" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NMSK" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NMST" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nazwa" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PowSymbol" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Powiat" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RMNazwa" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SymBM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Symbol" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SymbolPodst" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SymbolStat" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WojSymbol" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Wojewodztwo" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MiejscowoscPelna" nillable="true" type="tns:MiejscowoscPelna" />
+  <xs:complexType name="ArrayOfRodzajMiejscowosci">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="RodzajMiejscowosci" nillable="true" type="tns:RodzajMiejscowosci" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfRodzajMiejscowosci" nillable="true" type="tns:ArrayOfRodzajMiejscowosci" />
+  <xs:complexType name="RodzajMiejscowosci">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Nazwa" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Opis" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Symbol" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RodzajMiejscowosci" nillable="true" type="tns:RodzajMiejscowosci" />
+  <xs:complexType name="PlikKatalog">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="nazwa_pliku" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="opis" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="plik_zawartosc" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PlikKatalog" nillable="true" type="tns:PlikKatalog" />
+  <xs:complexType name="PlikZmiany">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="nazwa_pliku" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="opis" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="plik_zawartosc" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PlikZmiany" nillable="true" type="tns:PlikZmiany" />
+  <xs:complexType name="GeoTeryt">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="kodBledu" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="nazwaPliku" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="opis" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="plikZawartosc" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GeoTeryt" nillable="true" type="tns:GeoTeryt" />
+  <xs:complexType name="ArrayOfZweryfikowanyAdresBezUlic">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ZweryfikowanyAdresBezUlic" nillable="true" type="tns:ZweryfikowanyAdresBezUlic" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfZweryfikowanyAdresBezUlic" nillable="true" type="tns:ArrayOfZweryfikowanyAdresBezUlic" />
+  <xs:complexType name="ZweryfikowanyAdresBezUlic">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="HistorycznyRodzajMiejscowosci" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NazwaGmi" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NazwaMiejscowosci" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NazwaPow" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NazwaWoj" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RodzajGmi" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RodzajMiejscowosci" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SymbolGmi" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SymbolMiejscowosci" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SymbolPow" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SymbolRodzajuGmi" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SymbolWoj" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ZweryfikowanyAdresBezUlic" nillable="true" type="tns:ZweryfikowanyAdresBezUlic" />
+  <xs:complexType name="ArrayOfZweryfikowanyAdres">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ZweryfikowanyAdres" nillable="true" type="tns:ZweryfikowanyAdres" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfZweryfikowanyAdres" nillable="true" type="tns:ArrayOfZweryfikowanyAdres" />
+  <xs:complexType name="ZweryfikowanyAdres">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="HistorycznyRodzajMiejscowosci" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NazwaCechy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NazwaGmi" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NazwaMiejscowosci" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NazwaPow" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NazwaUlicyWPelnymBrzmieniu" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NazwaWoj" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nazwa_1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nazwa_2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RodzajGmi" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RodzajMiejscowosci" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SymUl" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SymbolGmi" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SymbolMiejscowosci" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SymbolPow" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SymbolRodzajuGmi" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SymbolWoj" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ZweryfikowanyAdres" nillable="true" type="tns:ZweryfikowanyAdres" />
+  <xs:complexType name="ArrayOfJednostkaPodzialuTerytorialnego">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="JednostkaPodzialuTerytorialnego" nillable="true" type="tns:JednostkaPodzialuTerytorialnego" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfJednostkaPodzialuTerytorialnego" nillable="true" type="tns:ArrayOfJednostkaPodzialuTerytorialnego" />
+  <xs:complexType name="JednostkaPodzialuTerytorialnego">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="GmiNazwa" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GmiNazwaDodatkowa" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GmiRodzaj" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GmiSymbol" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PowSymbol" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Powiat" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WojSymbol" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Wojewodztwo" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="JednostkaPodzialuTerytorialnego" nillable="true" type="tns:JednostkaPodzialuTerytorialnego" />
+  <xs:complexType name="ArrayOfUlica">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Ulica" nillable="true" type="tns:Ulica" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfUlica" nillable="true" type="tns:ArrayOfUlica" />
+  <xs:complexType name="Ulica">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Cecha" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GmiRodzaj" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GmiSymbol" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Gmina" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IdentyfikatorMiejscowosci" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IdentyfikatorUlicy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nazwa" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NazwaMiejscowosci" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PowSymbol" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Powiat" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WojSymbol" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Wojewodztwo" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Ulica" nillable="true" type="tns:Ulica" />
+  <xs:complexType name="ArrayOfidentyfikatory">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="identyfikatory" nillable="true" type="tns:identyfikatory" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfidentyfikatory" nillable="true" type="tns:ArrayOfidentyfikatory" />
+  <xs:complexType name="identyfikatory">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="simc" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="terc" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="identyfikatory" nillable="true" type="tns:identyfikatory" />
+  <xs:complexType name="ArrayOfJednostkaPodzialuTerytorialnegoDoSortowania">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="JednostkaPodzialuTerytorialnegoDoSortowania" nillable="true" type="tns:JednostkaPodzialuTerytorialnegoDoSortowania" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfJednostkaPodzialuTerytorialnegoDoSortowania" nillable="true" type="tns:ArrayOfJednostkaPodzialuTerytorialnegoDoSortowania" />
+  <xs:complexType name="JednostkaPodzialuTerytorialnegoDoSortowania">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="NazwaDodatkowaWyszukana" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NazwaGminy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NazwaPowiat" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NazwaWojewodztwa" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NazwaWyszukana" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RodzajGminy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SortGminy" type="xs:int" />
+      <xs:element minOccurs="0" name="SortPowiat" type="xs:int" />
+      <xs:element minOccurs="0" name="SymbolGminy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SymbolPowiat" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SymbolWojewodztwa" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SymbolWyszukana" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="JednostkaPodzialuTerytorialnegoDoSortowania" nillable="true" type="tns:JednostkaPodzialuTerytorialnegoDoSortowania" />
+  <xs:complexType name="ArrayOfWyszukanaMiejscowosc">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="WyszukanaMiejscowosc" nillable="true" type="tns:WyszukanaMiejscowosc" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfWyszukanaMiejscowosc" nillable="true" type="tns:ArrayOfWyszukanaMiejscowosc" />
+  <xs:complexType name="WyszukanaMiejscowosc">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DataStanu" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Gmi" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Gmina" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Mz" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nazwa" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Pow" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Powiat" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Rm" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RodzajGminy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RodzajMiejscowosci" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Symbol" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SymbolPodst" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Woj" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Wojewodztwo" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="WyszukanaMiejscowosc" nillable="true" type="tns:WyszukanaMiejscowosc" />
+  <xs:complexType name="ArrayOfWyszukanaUlica">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="WyszukanaUlica" nillable="true" type="tns:WyszukanaUlica" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfWyszukanaUlica" nillable="true" type="tns:ArrayOfWyszukanaUlica" />
+  <xs:complexType name="WyszukanaUlica">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Cecha" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DataStanu" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Gmi" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Gmina" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Miejscowosc" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nazwa" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nazwa1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nazwa2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Pow" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Powiat" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RodzajGminy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Symbol" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SymbolSimc" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Woj" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Wojewodztwo" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="WyszukanaUlica" nillable="true" type="tns:WyszukanaUlica" />
+  <xs:complexType name="ArrayOfWyszukanaMiejscowoscZPodstawowa">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="WyszukanaMiejscowoscZPodstawowa" nillable="true" type="tns:WyszukanaMiejscowoscZPodstawowa" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfWyszukanaMiejscowoscZPodstawowa" nillable="true" type="tns:ArrayOfWyszukanaMiejscowoscZPodstawowa" />
+  <xs:complexType name="WyszukanaMiejscowoscZPodstawowa">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DataStanu" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Gmi" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Gmina" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Mz" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nazwa" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NazwaPodst" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NazwaRodzajuGminy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Pow" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Powiat" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Rm" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RodzajGminy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RodzajMiejscowosci" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RodzajMiejscowosciPodst" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Symbol" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SymbolPodst" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Woj" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Wojewodztwo" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="WyszukanaMiejscowoscZPodstawowa" nillable="true" type="tns:WyszukanaMiejscowoscZPodstawowa" />
+  <xs:complexType name="ArrayOfWyszukanaUlicaZPodstawowa">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="WyszukanaUlicaZPodstawowa" nillable="true" type="tns:WyszukanaUlicaZPodstawowa" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfWyszukanaUlicaZPodstawowa" nillable="true" type="tns:ArrayOfWyszukanaUlicaZPodstawowa" />
+  <xs:complexType name="WyszukanaUlicaZPodstawowa">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Cecha" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DataStanu" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Gmi" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Gmina" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Miejscowosc" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MiejscowoscPodst" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nazwa" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nazwa1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nazwa2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NazwaRodzajuGminy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Pow" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Powiat" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RodzajGminy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RodzajMiejscowosci" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RodzajMiejscowosciPodst" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Symbol" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SymbolSimc" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SymbolSimcPodst" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Woj" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Wojewodztwo" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="WyszukanaUlicaZPodstawowa" nillable="true" type="tns:WyszukanaUlicaZPodstawowa" />
+  <xs:complexType name="Statystki">
+    <xs:sequence>
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="nazwy" nillable="true" type="q1:ArrayOfstring" />
+      <xs:element minOccurs="0" name="tytul" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Statystki" nillable="true" type="tns:Statystki" />
+  <xs:complexType name="Licznosc">
+    <xs:sequence>
+      <xs:element xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="LiczbaGmin" nillable="true" type="q2:ArrayOfint" />
+      <xs:element xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="LiczbaMiejscowosci" nillable="true" type="q3:ArrayOfint" />
+      <xs:element xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="LiczbaPowiatow" nillable="true" type="q4:ArrayOfint" />
+      <xs:element xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="LiczbaUlic" nillable="true" type="q5:ArrayOfint" />
+      <xs:element xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Wojewodztwa" nillable="true" type="q6:ArrayOfstring" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Licznosc" nillable="true" type="tns:Licznosc" />
+</xs:schema>

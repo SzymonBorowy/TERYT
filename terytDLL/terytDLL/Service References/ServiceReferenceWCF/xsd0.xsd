@@ -1,0 +1,1176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="https://uslugaterytws1test.stat.gov.pl/wsdl/xsd2.xsd" namespace="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" />
+  <xs:import schemaLocation="https://uslugaterytws1test.stat.gov.pl/wsdl/xsd3.xsd" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:element name="CzyZalogowany">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CzyZalogowanyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CzyZalogowanyResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Zweryfikowany">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ZweryfikowanyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ZweryfikowanyResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzDateAktualnegoKatTerc">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzDateAktualnegoKatTercResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="PobierzDateAktualnegoKatTercResult" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzDateAktualnegoKatNTS">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzDateAktualnegoKatNTSResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="PobierzDateAktualnegoKatNTSResult" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzDateAktualnegoKatSimc">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzDateAktualnegoKatSimcResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="PobierzDateAktualnegoKatSimcResult" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzDateAktualnegoKatUlic">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzDateAktualnegoKatUlicResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="PobierzDateAktualnegoKatUlicResult" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzListeWojewodztw">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzListeWojewodztwResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzListeWojewodztwResult" nillable="true" type="q1:ArrayOfJednostkaTerytorialna" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzListePowiatow">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Woj" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzListePowiatowResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzListePowiatowResult" nillable="true" type="q2:ArrayOfJednostkaTerytorialna" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzListeGmin">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Woj" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Pow" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzListeGminResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzListeGminResult" nillable="true" type="q3:ArrayOfJednostkaTerytorialna" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzGminyiPowDlaWoj">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Woj" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzGminyiPowDlaWojResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzGminyiPowDlaWojResult" nillable="true" type="q4:ArrayOfJednostkaTerytorialna" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzListeRegionow">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzListeRegionowResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzListeRegionowResult" nillable="true" type="q5:ArrayOfJednostkaNomenklaturyNTS" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzListePodregionow">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Woj" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzListePodregionowResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzListePodregionowResult" nillable="true" type="q6:ArrayOfJednostkaNomenklaturyNTS" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzListeWojewodztwWRegionie">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Reg" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzListeWojewodztwWRegionieResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzListeWojewodztwWRegionieResult" nillable="true" type="q7:ArrayOfJednostkaNomenklaturyNTS" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzListePowiatowWPodregionie">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Podreg" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzListePowiatowWPodregionieResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzListePowiatowWPodregionieResult" nillable="true" type="q8:ArrayOfJednostkaNomenklaturyNTS" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzListeGminPowiecie">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Pow" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Podreg" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzListeGminPowiecieResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzListeGminPowiecieResult" nillable="true" type="q9:ArrayOfJednostkaNomenklaturyNTS" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzListeUlicDlaMiejscowosci">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="woj" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pow" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="gmi" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="rodzaj" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="msc" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="czyWersjaUrzedowa" type="xs:boolean" />
+        <xs:element minOccurs="0" name="czyWersjaAdresowa" type="xs:boolean" />
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzListeUlicDlaMiejscowosciResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzListeUlicDlaMiejscowosciResult" nillable="true" type="q10:ArrayOfUlicaDrzewo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzListeMiejscowosciWGminie">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Wojewodztwo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Powiat" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Gmina" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzListeMiejscowosciWGminieResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzListeMiejscowosciWGminieResult" nillable="true" type="q11:ArrayOfMiejscowosc" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzListeMiejscowosciWGminieZSymbolem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Woj" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Pow" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Gmi" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Rodz" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzListeMiejscowosciWGminieZSymbolemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzListeMiejscowosciWGminieZSymbolemResult" nillable="true" type="q12:ArrayOfMiejscowoscPelna" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzListeMiejscowosciWRodzajuGminy">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="symbolWoj" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="symbolPow" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="symbolGmi" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="symbolRodz" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzListeMiejscowosciWRodzajuGminyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzListeMiejscowosciWRodzajuGminyResult" nillable="true" type="q13:ArrayOfMiejscowosc" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzSlownikRodzajowJednostek">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzSlownikRodzajowJednostekResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="PobierzSlownikRodzajowJednostekResult" nillable="true" type="q14:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzSlownikRodzajowSIMC">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzSlownikRodzajowSIMCResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzSlownikRodzajowSIMCResult" nillable="true" type="q15:ArrayOfRodzajMiejscowosci" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzSlownikCechULIC">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzSlownikCechULICResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q16="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="PobierzSlownikCechULICResult" nillable="true" type="q16:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzKatalogTERCAdr">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzKatalogTERCAdrResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzKatalogTERCAdrResult" nillable="true" type="q17:PlikKatalog" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzKatalogTERC">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzKatalogTERCResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzKatalogTERCResult" nillable="true" type="q18:PlikKatalog" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzKatalogNTS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzKatalogNTSResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzKatalogNTSResult" nillable="true" type="q19:PlikKatalog" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzKatalogSIMCAdr">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzKatalogSIMCAdrResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzKatalogSIMCAdrResult" nillable="true" type="q20:PlikKatalog" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzKatalogSIMC">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzKatalogSIMCResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzKatalogSIMCResult" nillable="true" type="q21:PlikKatalog" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzKatalogSIMCStat">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzKatalogSIMCStatResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzKatalogSIMCStatResult" nillable="true" type="q22:PlikKatalog" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzKatalogULIC">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzKatalogULICResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzKatalogULICResult" nillable="true" type="q23:PlikKatalog" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzKatalogULICAdr">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzKatalogULICAdrResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzKatalogULICAdrResult" nillable="true" type="q24:PlikKatalog" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzKatalogULICBezDzielnic">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzKatalogULICBezDzielnicResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzKatalogULICBezDzielnicResult" nillable="true" type="q25:PlikKatalog" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzStaryKatalogULIC">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzStaryKatalogULICResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzStaryKatalogULICResult" nillable="true" type="q26:PlikKatalog" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzKatalogWMRODZ">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzKatalogWMRODZResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzKatalogWMRODZResult" nillable="true" type="q27:PlikKatalog" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzZmianyTercUrzedowy">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="stanod" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="stando" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzZmianyTercUrzedowyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzZmianyTercUrzedowyResult" nillable="true" type="q28:PlikZmiany" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzZmianyTercAdresowy">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="stanod" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="stando" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzZmianyTercAdresowyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q29="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzZmianyTercAdresowyResult" nillable="true" type="q29:PlikZmiany" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzZmianyNTS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="stanod" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="stando" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzZmianyNTSResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q30="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzZmianyNTSResult" nillable="true" type="q30:PlikZmiany" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzZmianySimcUrzedowy">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="stanod" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="stando" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzZmianySimcUrzedowyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q31="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzZmianySimcUrzedowyResult" nillable="true" type="q31:PlikZmiany" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzZmianySimcAdresowy">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="stanod" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="stando" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzZmianySimcAdresowyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q32="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzZmianySimcAdresowyResult" nillable="true" type="q32:PlikZmiany" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzZmianySimcStatystyczny">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="stanod" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="stando" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzZmianySimcStatystycznyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q33="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzZmianySimcStatystycznyResult" nillable="true" type="q33:PlikZmiany" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzZmianyUlicUrzedowy">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="stanod" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="stando" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzZmianyUlicUrzedowyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q34="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzZmianyUlicUrzedowyResult" nillable="true" type="q34:PlikZmiany" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzZmianyUlicAdresowy">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="stanod" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="stando" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzZmianyUlicAdresowyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q35="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzZmianyUlicAdresowyResult" nillable="true" type="q35:PlikZmiany" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzZmianyUlicBezDzielnic">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="stanod" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="stando" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzZmianyUlicBezDzielnicResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q36="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzZmianyUlicBezDzielnicResult" nillable="true" type="q36:PlikZmiany" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzGeoTerytPlikPelny">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="rok" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="kwartal" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="kodTerytorialny" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzGeoTerytPlikPelnyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q37="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzGeoTerytPlikPelnyResult" nillable="true" type="q37:GeoTeryt" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzGeoTerytPlikRoznicowy">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="rok" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="kwartal" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="kodTerytorialny" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PobierzGeoTerytPlikRoznicowyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q38="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="PobierzGeoTerytPlikRoznicowyResult" nillable="true" type="q38:GeoTeryt" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WeryfikujAdresDlaMiejscowosci">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="symbolMsc" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WeryfikujAdresDlaMiejscowosciResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q39="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="WeryfikujAdresDlaMiejscowosciResult" nillable="true" type="q39:ArrayOfZweryfikowanyAdresBezUlic" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WeryfikujAdresDlaMiejscowosciAdresowy">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="symbolMsc" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WeryfikujAdresDlaMiejscowosciAdresowyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q40="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="WeryfikujAdresDlaMiejscowosciAdresowyResult" nillable="true" type="q40:ArrayOfZweryfikowanyAdresBezUlic" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WeryfikujAdresDlaUlic">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="symbolMsc" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SymUl" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WeryfikujAdresDlaUlicResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q41="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="WeryfikujAdresDlaUlicResult" nillable="true" type="q41:ArrayOfZweryfikowanyAdres" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WeryfikujAdresDlaUlicAdresowy">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="symbolMsc" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SymUl" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WeryfikujAdresDlaUlicAdresowyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q42="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="WeryfikujAdresDlaUlicAdresowyResult" nillable="true" type="q42:ArrayOfZweryfikowanyAdres" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WeryfikujAdresWmiejscowosci">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Wojewodztwo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Powiat" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Gmina" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Miejscowosc" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Rodzaj" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WeryfikujAdresWmiejscowosciResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q43="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="WeryfikujAdresWmiejscowosciResult" nillable="true" type="q43:ArrayOfZweryfikowanyAdresBezUlic" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WeryfikujAdresWmiejscowosciAdresowy">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Wojewodztwo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Powiat" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Gmina" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Miejscowosc" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Rodzaj" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WeryfikujAdresWmiejscowosciAdresowyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q44="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="WeryfikujAdresWmiejscowosciAdresowyResult" nillable="true" type="q44:ArrayOfZweryfikowanyAdresBezUlic" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WeryfikujNazwaAdresUlic">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Wojewodztwo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Powiat" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Gmina" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Miejscowosc" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Rodzaj" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NazwaUlicy" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WeryfikujNazwaAdresUlicResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q45="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="WeryfikujNazwaAdresUlicResult" nillable="true" type="q45:ArrayOfZweryfikowanyAdres" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WeryfikujNazwaAdresUlicAdresowy">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nazwaWoj" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="nazwaPow" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="nazwaGmi" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="nazwaMiejscowosc" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="rodzajMiejsc" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="nazwaUlicy" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WeryfikujNazwaAdresUlicAdresowyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q46="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="WeryfikujNazwaAdresUlicAdresowyResult" nillable="true" type="q46:ArrayOfZweryfikowanyAdres" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajJPT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nazwa" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajJPTResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q47="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="WyszukajJPTResult" nillable="true" type="q47:ArrayOfJednostkaPodzialuTerytorialnego" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajMiejscowosc">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nazwaMiejscowosci" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="identyfikatorMiejscowosci" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajMiejscowoscResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q48="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="WyszukajMiejscowoscResult" nillable="true" type="q48:ArrayOfMiejscowosc" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajMiejscowoscWJPT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nazwaWoj" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="nazwaPow" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="nazwaGmi" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="nazwaMiejscowosci" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="identyfikatorMiejscowosci" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajMiejscowoscWJPTResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q49="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="WyszukajMiejscowoscWJPTResult" nillable="true" type="q49:ArrayOfMiejscowosc" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajUlice">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nazwaulicy" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="cecha" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="nazwamiejscowosci" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajUliceResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q50="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="WyszukajUliceResult" nillable="true" type="q50:ArrayOfUlica" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajJednostkeWRejestrze">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nazwa" nillable="true" type="xs:string" />
+        <xs:element xmlns:q51="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="identyfiks" nillable="true" type="q51:ArrayOfidentyfikatory" />
+        <xs:element minOccurs="0" name="kategoria" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajJednostkeWRejestrzeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q52="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="WyszukajJednostkeWRejestrzeResult" nillable="true" type="q52:ArrayOfJednostkaPodzialuTerytorialnego" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajJednostkeWRejestrzeWebLS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nazwa" nillable="true" type="xs:string" />
+        <xs:element xmlns:q53="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="identyfiks" nillable="true" type="q53:ArrayOfidentyfikatory" />
+        <xs:element minOccurs="0" name="kategoria" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="zawezenieRekordow" type="xs:boolean" />
+        <xs:element minOccurs="0" name="odKtoregoRekordu" type="xs:int" />
+        <xs:element minOccurs="0" name="iloscRekordow" type="xs:int" />
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajJednostkeWRejestrzeWebLSResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q54="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="WyszukajJednostkeWRejestrzeWebLSResult" nillable="true" type="q54:ArrayOfJednostkaPodzialuTerytorialnego" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajJednostkeWRejestrzeWebLSCount">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nazwa" nillable="true" type="xs:string" />
+        <xs:element xmlns:q55="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="identyfiks" nillable="true" type="q55:ArrayOfidentyfikatory" />
+        <xs:element minOccurs="0" name="kategoria" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajJednostkeWRejestrzeWebLSCountResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="WyszukajJednostkeWRejestrzeWebLSCountResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajJednostkeWRejestrzeWebLSZSortowaniem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nazwa" nillable="true" type="xs:string" />
+        <xs:element xmlns:q56="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="identyfiks" nillable="true" type="q56:ArrayOfidentyfikatory" />
+        <xs:element minOccurs="0" name="kategoria" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="zawezenieRekordow" type="xs:boolean" />
+        <xs:element minOccurs="0" name="odKtoregoRekordu" type="xs:int" />
+        <xs:element minOccurs="0" name="iloscRekordow" type="xs:int" />
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajJednostkeWRejestrzeWebLSZSortowaniemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q57="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="WyszukajJednostkeWRejestrzeWebLSZSortowaniemResult" nillable="true" type="q57:ArrayOfJednostkaPodzialuTerytorialnegoDoSortowania" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajMiejscowoscWRejestrze">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nazwa" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="rodzajMiejscowosci" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="symbol" nillable="true" type="xs:string" />
+        <xs:element xmlns:q58="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="identyfiks" nillable="true" type="q58:ArrayOfidentyfikatory" />
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajMiejscowoscWRejestrzeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q59="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="WyszukajMiejscowoscWRejestrzeResult" nillable="true" type="q59:ArrayOfWyszukanaMiejscowosc" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajUliceWRejestrze">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nazwa" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="cecha" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="identyfikator" nillable="true" type="xs:string" />
+        <xs:element xmlns:q60="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="identyfiks" nillable="true" type="q60:ArrayOfidentyfikatory" />
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajUliceWRejestrzeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q61="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="WyszukajUliceWRejestrzeResult" nillable="true" type="q61:ArrayOfWyszukanaUlica" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajMiejscowoscWeb">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nazwa" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="rodzajMiejscowosci" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="symbol" nillable="true" type="xs:string" />
+        <xs:element xmlns:q62="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="identyfiks" nillable="true" type="q62:ArrayOfidentyfikatory" />
+        <xs:element minOccurs="0" name="czyPelnaNazwa" type="xs:boolean" />
+        <xs:element minOccurs="0" name="iloscRekordow" type="xs:int" />
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajMiejscowoscWebResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q63="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="WyszukajMiejscowoscWebResult" nillable="true" type="q63:ArrayOfWyszukanaMiejscowosc" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajMiejscowoscWebLS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nazwa" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="rodzajMiejscowosci" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="symbol" nillable="true" type="xs:string" />
+        <xs:element xmlns:q64="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="idents" nillable="true" type="q64:ArrayOfidentyfikatory" />
+        <xs:element minOccurs="0" name="czyPelnaNazwa" type="xs:boolean" />
+        <xs:element minOccurs="0" name="czyFragmentNazwy" type="xs:boolean" />
+        <xs:element minOccurs="0" name="zawezenieRekordow" type="xs:boolean" />
+        <xs:element minOccurs="0" name="odKtoregoRekordu" type="xs:int" />
+        <xs:element minOccurs="0" name="iloscRekordow" type="xs:int" />
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajMiejscowoscWebLSResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q65="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="WyszukajMiejscowoscWebLSResult" nillable="true" type="q65:ArrayOfWyszukanaMiejscowoscZPodstawowa" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajMiejscowoscWebCount">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nazwa" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="rodzajMiejscowosci" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="symbol" nillable="true" type="xs:string" />
+        <xs:element xmlns:q66="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="identyfiks" nillable="true" type="q66:ArrayOfidentyfikatory" />
+        <xs:element minOccurs="0" name="czyPelnaNazwa" type="xs:boolean" />
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajMiejscowoscWebCountResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="WyszukajMiejscowoscWebCountResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajMiejscowoscWebCountLS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nazwa" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="rodzajMiejscowosci" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="symbol" nillable="true" type="xs:string" />
+        <xs:element xmlns:q67="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="identyfiks" nillable="true" type="q67:ArrayOfidentyfikatory" />
+        <xs:element minOccurs="0" name="czyPelnaNazwa" type="xs:boolean" />
+        <xs:element minOccurs="0" name="czyFragmentNazwy" type="xs:boolean" />
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajMiejscowoscWebCountLSResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="WyszukajMiejscowoscWebCountLSResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajUliceWeb">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nazwa" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="cecha" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="identyfikator" nillable="true" type="xs:string" />
+        <xs:element xmlns:q68="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="identyfiks" nillable="true" type="q68:ArrayOfidentyfikatory" />
+        <xs:element minOccurs="0" name="czyPelnaNazwa" type="xs:boolean" />
+        <xs:element minOccurs="0" name="iloscRekordow" type="xs:int" />
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajUliceWebResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q69="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="WyszukajUliceWebResult" nillable="true" type="q69:ArrayOfWyszukanaUlica" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajUliceWebCount">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nazwa" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="cecha" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="identyfikator" nillable="true" type="xs:string" />
+        <xs:element xmlns:q70="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="identyfiks" nillable="true" type="q70:ArrayOfidentyfikatory" />
+        <xs:element minOccurs="0" name="czyPelnaNazwa" type="xs:boolean" />
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajUliceWebCountResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="WyszukajUliceWebCountResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajUliceWebLS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nazwa" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="cecha" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="identyfikator" nillable="true" type="xs:string" />
+        <xs:element xmlns:q71="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="identyfiks" nillable="true" type="q71:ArrayOfidentyfikatory" />
+        <xs:element minOccurs="0" name="czyPelnaNazwa" type="xs:boolean" />
+        <xs:element minOccurs="0" name="czyFragmentNazwy" type="xs:boolean" />
+        <xs:element minOccurs="0" name="zawezenieRekordow" type="xs:boolean" />
+        <xs:element minOccurs="0" name="odKtoregoRekordu" type="xs:int" />
+        <xs:element minOccurs="0" name="iloscRekordow" type="xs:int" />
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajUliceWebLSResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q72="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="WyszukajUliceWebLSResult" nillable="true" type="q72:ArrayOfWyszukanaUlicaZPodstawowa" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajUliceWebLSCount">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nazwa" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="cecha" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="identyfikator" nillable="true" type="xs:string" />
+        <xs:element xmlns:q73="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="identyfiks" nillable="true" type="q73:ArrayOfidentyfikatory" />
+        <xs:element minOccurs="0" name="czyPelnaNazwa" type="xs:boolean" />
+        <xs:element minOccurs="0" name="czyFragmentNazwy" type="xs:boolean" />
+        <xs:element minOccurs="0" name="DataStanu" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WyszukajUliceWebLSCountResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="WyszukajUliceWebLSCountResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TerytWLiczbach">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="wybierz" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TerytWLiczbachResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q74="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="TerytWLiczbachResult" nillable="true" type="q74:Statystki" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CiekawostkiTERC">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CiekawostkiTERCResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CiekawostkiTERCResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CiekawostkiSIMC">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CiekawostkiSIMCResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CiekawostkiSIMCResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CiekawostkiULIC">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CiekawostkiULICResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CiekawostkiULICResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LicznoscJednostek">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LicznoscJednostekResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q75="http://schemas.datacontract.org/2004/07/TerytUslugaWs1" minOccurs="0" name="LicznoscJednostekResult" nillable="true" type="q75:Licznosc" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

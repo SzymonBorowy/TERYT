@@ -1,0 +1,17 @@
+﻿
+Uruchamianie instalacji transakcyjnej.
+
+Rozpoczyna się faza instalacji procesu instalacji.
+Aby sprawdzić postęp zestawu C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL\terytWS\bin\Debug\terytWS.exe, zapoznaj się z zawartością pliku dziennika.
+Plik znajduje się w C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL\terytWS\bin\Debug\terytWS.InstallLog.
+
+Podczas fazy instalacji wystąpił wyjątek.
+System.Security.SecurityException: Nie znaleziono źródła, ale nie można przeszukać niektórych lub wszystkich dzienników zdarzeń. Niedostępne dzienniki: Security.
+
+Rozpoczyna się faza wycofywania procesu instalacji.
+Aby sprawdzić postęp zestawu C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL\terytWS\bin\Debug\terytWS.exe, zapoznaj się z zawartością pliku dziennika.
+Plik znajduje się w C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL\terytWS\bin\Debug\terytWS.InstallLog.
+
+Faza wycofywania została ukończona pomyślnie.
+
+Instalacja transakcyjna została ukończona.

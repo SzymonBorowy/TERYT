@@ -1,0 +1,9 @@
+c:\users\marta\documents\visual studio 2017\Projects\teryt_1\teryt_1\bin\Debug\teryt_1.exe.config
+c:\users\marta\documents\visual studio 2017\Projects\teryt_1\teryt_1\bin\Debug\teryt_1.exe
+c:\users\marta\documents\visual studio 2017\Projects\teryt_1\teryt_1\bin\Debug\teryt_1.pdb
+c:\users\marta\documents\visual studio 2017\Projects\teryt_1\teryt_1\obj\Debug\teryt_1.csprojResolveAssemblyReference.cache
+c:\users\marta\documents\visual studio 2017\Projects\teryt_1\teryt_1\obj\Debug\teryt_1.Form1.resources
+c:\users\marta\documents\visual studio 2017\Projects\teryt_1\teryt_1\obj\Debug\teryt_1.Properties.Resources.resources
+c:\users\marta\documents\visual studio 2017\Projects\teryt_1\teryt_1\obj\Debug\teryt_1.csproj.GenerateResource.Cache
+c:\users\marta\documents\visual studio 2017\Projects\teryt_1\teryt_1\obj\Debug\teryt_1.exe
+c:\users\marta\documents\visual studio 2017\Projects\teryt_1\teryt_1\obj\Debug\teryt_1.pdb

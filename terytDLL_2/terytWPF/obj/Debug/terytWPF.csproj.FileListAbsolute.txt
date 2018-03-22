@@ -1,0 +1,11 @@
+c:\users\voltpc3\documents\visual studio 2015\Projects\terytDLL_2\terytWPF\bin\Debug\terytWPF.exe.config
+c:\users\voltpc3\documents\visual studio 2015\Projects\terytDLL_2\terytWPF\bin\Debug\terytWPF.exe
+c:\users\voltpc3\documents\visual studio 2015\Projects\terytDLL_2\terytWPF\bin\Debug\terytWPF.pdb
+c:\users\voltpc3\documents\visual studio 2015\Projects\terytDLL_2\terytWPF\bin\Debug\terytDLL_2.dll
+c:\users\voltpc3\documents\visual studio 2015\Projects\terytDLL_2\terytWPF\bin\Debug\terytDLL_2.pdb
+c:\users\voltpc3\documents\visual studio 2015\Projects\terytDLL_2\terytWPF\obj\Debug\terytWPF.csprojResolveAssemblyReference.cache
+c:\users\voltpc3\documents\visual studio 2015\Projects\terytDLL_2\terytWPF\obj\Debug\terytWPF.Form1.resources
+c:\users\voltpc3\documents\visual studio 2015\Projects\terytDLL_2\terytWPF\obj\Debug\terytWPF.Properties.Resources.resources
+c:\users\voltpc3\documents\visual studio 2015\Projects\terytDLL_2\terytWPF\obj\Debug\terytWPF.csproj.GenerateResource.Cache
+c:\users\voltpc3\documents\visual studio 2015\Projects\terytDLL_2\terytWPF\obj\Debug\terytWPF.exe
+c:\users\voltpc3\documents\visual studio 2015\Projects\terytDLL_2\terytWPF\obj\Debug\terytWPF.pdb

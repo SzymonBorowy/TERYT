@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2d011ebc-597c-4af0-b87c-a1926279bda8" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://uslugaterytws1test.stat.gov.pl/wsdl/terytws1.wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="xsd1.xsd" MetadataType="Schema" ID="13da5b5b-426d-422b-bf89-6316dc50cba4" SourceId="1" SourceUrl="https://uslugaterytws1test.stat.gov.pl/wsdl/xsd1.xsd" />
+    <MetadataFile FileName="TerytWs1.wsdl" MetadataType="Wsdl" ID="487e15fa-3fa8-4c33-a4a8-d52172f7e974" SourceId="1" SourceUrl="https://uslugaterytws1test.stat.gov.pl/wsdl/terytws1.wsdl" />
+    <MetadataFile FileName="xsd0.xsd" MetadataType="Schema" ID="9149150c-7c7c-49f4-b42d-581db9009028" SourceId="1" SourceUrl="https://uslugaterytws1test.stat.gov.pl/wsdl/xsd0.xsd" />
+    <MetadataFile FileName="xsd3.xsd" MetadataType="Schema" ID="93eea7e3-e7b4-437b-a6ab-29c4b7506bf8" SourceId="1" SourceUrl="https://uslugaterytws1test.stat.gov.pl/wsdl/xsd3.xsd" />
+    <MetadataFile FileName="xsd2.xsd" MetadataType="Schema" ID="65ef9366-d319-4472-9b03-7b1be8dcc066" SourceId="1" SourceUrl="https://uslugaterytws1test.stat.gov.pl/wsdl/xsd2.xsd" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

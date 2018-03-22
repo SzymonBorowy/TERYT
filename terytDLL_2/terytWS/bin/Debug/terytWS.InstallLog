@@ -1,0 +1,184 @@
+﻿Instalowanie zestawu 'C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.InstallLog
+   assemblypath = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe
+Trwa instalowanie usługi UslugaPobierajacaPlikiTERYT...
+Trwa tworzenie źródła EventLog UslugaPobierajacaPlikiTERYT w dzienniku Application...
+Wycofywanie zestawu 'C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.InstallLog
+   assemblypath = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe
+Przywracanie dziennika zdarzeń do poprzedniego stanu dla źródła UslugaPobierajacaPlikiTERYT.
+Podczas fazy wycofywania instalatora System.Diagnostics.EventLogInstaller wystąpił wyjątek.
+System.Security.SecurityException: Nie znaleziono źródła, ale nie można przeszukać niektórych lub wszystkich dzienników zdarzeń. Niedostępne dzienniki: Security.
+Podczas fazy wycofywania instalacji wystąpił wyjątek. Wyjątek ten zostanie zignorowany, a wycofywanie będzie kontynuowane. Jednak po ukończeniu wycofywania komputer może nie powrócić całkowicie do stanu początkowego.
+Instalowanie zestawu 'C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.InstallLog
+   assemblypath = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe
+Trwa instalowanie usługi UslugaPobierajacaPlikiTERYT...
+Trwa tworzenie źródła EventLog UslugaPobierajacaPlikiTERYT w dzienniku Application...
+Wycofywanie zestawu 'C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.InstallLog
+   assemblypath = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe
+Przywracanie dziennika zdarzeń do poprzedniego stanu dla źródła UslugaPobierajacaPlikiTERYT.
+Podczas fazy wycofywania instalatora System.Diagnostics.EventLogInstaller wystąpił wyjątek.
+System.Security.SecurityException: Nie znaleziono źródła, ale nie można przeszukać niektórych lub wszystkich dzienników zdarzeń. Niedostępne dzienniki: Security.
+Podczas fazy wycofywania instalacji wystąpił wyjątek. Wyjątek ten zostanie zignorowany, a wycofywanie będzie kontynuowane. Jednak po ukończeniu wycofywania komputer może nie powrócić całkowicie do stanu początkowego.
+Instalowanie zestawu 'C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.InstallLog
+   assemblypath = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe
+Trwa instalowanie usługi UslugaPobierajacaPlikiTERYT...
+Usługa UslugaPobierajacaPlikiTERYT została zainstalowana pomyślnie.
+Trwa tworzenie źródła EventLog UslugaPobierajacaPlikiTERYT w dzienniku Application...
+Zatwierdzanie zestawu 'C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.InstallLog
+   assemblypath = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe
+Instalowanie zestawu 'C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.InstallLog
+   assemblypath = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe
+Trwa instalowanie usługi UslugaPobierajacaPlikiTERYT...
+Trwa tworzenie źródła EventLog UslugaPobierajacaPlikiTERYT w dzienniku Application...
+Wycofywanie zestawu 'C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.InstallLog
+   assemblypath = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe
+Przywracanie dziennika zdarzeń do poprzedniego stanu dla źródła UslugaPobierajacaPlikiTERYT.
+Instalowanie zestawu 'C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.InstallLog
+   assemblypath = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe
+Trwa instalowanie usługi UslugaPobierajacaPlikiTERYT...
+Trwa tworzenie źródła EventLog UslugaPobierajacaPlikiTERYT w dzienniku Application...
+Wycofywanie zestawu 'C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.InstallLog
+   assemblypath = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe
+Przywracanie dziennika zdarzeń do poprzedniego stanu dla źródła UslugaPobierajacaPlikiTERYT.
+Instalowanie zestawu 'C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.InstallLog
+   assemblypath = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe
+Trwa instalowanie usługi UslugaPobierajacaPlikiTERYT...
+Trwa tworzenie źródła EventLog UslugaPobierajacaPlikiTERYT w dzienniku Application...
+Wycofywanie zestawu 'C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.InstallLog
+   assemblypath = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe
+Przywracanie dziennika zdarzeń do poprzedniego stanu dla źródła UslugaPobierajacaPlikiTERYT.
+Instalowanie zestawu 'C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.InstallLog
+   assemblypath = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe
+Trwa instalowanie usługi UslugaPobierajacaPlikiTERYT...
+Trwa tworzenie źródła EventLog UslugaPobierajacaPlikiTERYT w dzienniku Application...
+Wycofywanie zestawu 'C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.InstallLog
+   assemblypath = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe
+Przywracanie dziennika zdarzeń do poprzedniego stanu dla źródła UslugaPobierajacaPlikiTERYT.
+Odinstalowywanie zestawu 'C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.InstallLog
+   assemblypath = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe
+Usuwanie źródła EventLog UslugaPobierajacaPlikiTERYT.
+Trwa usuwanie usługi UslugaPobierajacaPlikiTERYT z systemu...
+Usługa UslugaPobierajacaPlikiTERYT została pomyślnie usunięta z systemu.
+Próba zatrzymania usługi UslugaPobierajacaPlikiTERYT.
+Instalowanie zestawu 'C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.InstallLog
+   assemblypath = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe
+Trwa instalowanie usługi UslugaPobierajacaPlikiTERYT...
+Usługa UslugaPobierajacaPlikiTERYT została zainstalowana pomyślnie.
+Trwa tworzenie źródła EventLog UslugaPobierajacaPlikiTERYT w dzienniku Application...
+Zatwierdzanie zestawu 'C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.InstallLog
+   assemblypath = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe
+Odinstalowywanie zestawu 'C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.InstallLog
+   assemblypath = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe
+Usuwanie źródła EventLog UslugaPobierajacaPlikiTERYT.
+Trwa usuwanie usługi UslugaPobierajacaPlikiTERYT z systemu...
+Usługa UslugaPobierajacaPlikiTERYT została pomyślnie usunięta z systemu.
+Instalowanie zestawu 'C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.InstallLog
+   assemblypath = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe
+Trwa instalowanie usługi UslugaPobierajacaPlikiTERYT...
+Usługa UslugaPobierajacaPlikiTERYT została zainstalowana pomyślnie.
+Trwa tworzenie źródła EventLog UslugaPobierajacaPlikiTERYT w dzienniku Application...
+Zatwierdzanie zestawu 'C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.InstallLog
+   assemblypath = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe
+Odinstalowywanie zestawu 'C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.InstallLog
+   assemblypath = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe
+Usuwanie źródła EventLog UslugaPobierajacaPlikiTERYT.
+Trwa usuwanie usługi UslugaPobierajacaPlikiTERYT z systemu...
+Usługa UslugaPobierajacaPlikiTERYT została pomyślnie usunięta z systemu.
+Próba zatrzymania usługi UslugaPobierajacaPlikiTERYT.
+Instalowanie zestawu 'C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.InstallLog
+   assemblypath = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe
+Trwa instalowanie usługi UslugaPobierajacaPlikiTERYT...
+Usługa UslugaPobierajacaPlikiTERYT została zainstalowana pomyślnie.
+Trwa tworzenie źródła EventLog UslugaPobierajacaPlikiTERYT w dzienniku Application...
+Zatwierdzanie zestawu 'C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.InstallLog
+   assemblypath = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe
+Odinstalowywanie zestawu 'C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.InstallLog
+   assemblypath = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe
+Usuwanie źródła EventLog UslugaPobierajacaPlikiTERYT.
+Trwa usuwanie usługi UslugaPobierajacaPlikiTERYT z systemu...
+Usługa UslugaPobierajacaPlikiTERYT została pomyślnie usunięta z systemu.
+Próba zatrzymania usługi UslugaPobierajacaPlikiTERYT.
+Instalowanie zestawu 'C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.InstallLog
+   assemblypath = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe
+Trwa instalowanie usługi UslugaPobierajacaPlikiTERYT...
+Usługa UslugaPobierajacaPlikiTERYT została zainstalowana pomyślnie.
+Trwa tworzenie źródła EventLog UslugaPobierajacaPlikiTERYT w dzienniku Application...
+Zatwierdzanie zestawu 'C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.InstallLog
+   assemblypath = C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL_2\terytWS\bin\Debug\terytWS.exe

@@ -1,0 +1,6 @@
+c:\users\voltpc3\documents\visual studio 2015\Projects\terytDLL\terytDLL\bin\Debug\terytDLL.dll.config
+c:\users\voltpc3\documents\visual studio 2015\Projects\terytDLL\terytDLL\bin\Debug\terytDLL.dll
+c:\users\voltpc3\documents\visual studio 2015\Projects\terytDLL\terytDLL\bin\Debug\terytDLL.pdb
+c:\users\voltpc3\documents\visual studio 2015\Projects\terytDLL\terytDLL\obj\Debug\terytDLL.csprojResolveAssemblyReference.cache
+c:\users\voltpc3\documents\visual studio 2015\Projects\terytDLL\terytDLL\obj\Debug\terytDLL.dll
+c:\users\voltpc3\documents\visual studio 2015\Projects\terytDLL\terytDLL\obj\Debug\terytDLL.pdb

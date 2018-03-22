@@ -1,0 +1,10 @@
+C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL\terytWS\bin\Debug\terytWS.exe.config
+C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL\terytWS\bin\Debug\terytWS.exe
+C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL\terytWS\bin\Debug\terytWS.pdb
+C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL\terytWS\bin\Debug\terytDLL.dll
+C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL\terytWS\bin\Debug\terytDLL.pdb
+C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL\terytWS\obj\Debug\terytWS.csprojResolveAssemblyReference.cache
+C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL\terytWS\obj\Debug\terytWS.ProjectInstaller.resources
+C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL\terytWS\obj\Debug\terytWS.csproj.GenerateResource.Cache
+C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL\terytWS\obj\Debug\terytWS.exe
+C:\Users\VOLTPC3\Documents\Visual Studio 2015\Projects\terytDLL\terytWS\obj\Debug\terytWS.pdb
